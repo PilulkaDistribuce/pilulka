@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+  php:
+    image: krizius/pilulka-php-apache
+    volumes:
+      - .:/var/www
+    environment:
+      XDEBUG_CONFIG: 'remote_enable=0'
+    ports:
+      - 8008:80
+    networks:
+      - skeleton
+
+networks:
+  skeleton:
+    driver: bridge
