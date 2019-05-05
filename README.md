@@ -1,0 +1,2 @@
+# pilulka
+Monorepo by splitsh
