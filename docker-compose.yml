@@ -9,7 +9,7 @@ services:
     environment:
       XDEBUG_CONFIG: 'remote_enable=0'
     ports:
-      - 8008:80
+      - 8880:80
     networks:
       - skeleton
 

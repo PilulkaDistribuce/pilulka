@@ -22,5 +22,4 @@ class Factory
         }
         return $container;
     }
-
 }
